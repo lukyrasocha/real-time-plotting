@@ -7,14 +7,15 @@ x = [0]
 y = [0]
  
 ln, = plt.plot(x, y, '-')
-plt.axis([0, 100, 0, 10])
+zz = 100
+plt.axis([0, zz, 0, 10])
  
 def update(frame):
     x.append(x[-1] + 1)
     y.append(randrange(0, 10))
- 
+
     ln.set_data(x, y) 
     return ln,
  
-animation = FuncAnimation(fig, update, interval=500)
+animation = FuncAnimation(fig, update, interval=100)
 plt.show()
