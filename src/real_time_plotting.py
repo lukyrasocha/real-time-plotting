@@ -3,13 +3,14 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 import matplotlib as mpl
 
-# Create figure for plotting
+# Set text color 
 COLOR = '#FFFFFF'
 mpl.rcParams['text.color'] = COLOR
 mpl.rcParams['axes.labelcolor'] = COLOR
 mpl.rcParams['xtick.color'] = COLOR
 mpl.rcParams['ytick.color'] = COLOR
 
+# Create figure for plotting
 fig = plt.figure(figsize = (10,5),tight_layout=True, facecolor='#262626')
 ax = fig.add_subplot(1, 1, 1)
 ax.set_facecolor("#262626")
