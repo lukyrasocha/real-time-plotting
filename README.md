@@ -3,6 +3,6 @@
 ### Todo
 - [x] Automatically grow the graph to the right by a certain increment value
 - [x] Read from stdin instead
-- [ ] Read data coming from a port
+- [x] Read data coming from a port
 
 ![Chart](assets/fig.png)
